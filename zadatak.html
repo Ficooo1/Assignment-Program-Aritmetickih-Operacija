@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var br1 = prompt("Molim Vas da unesete prvi broj");
+
+    var znak = prompt("Odaberite matematičku operaciju koju ćete koristiti: +, -, *, / ");
+
+    
+    switch (znak){
+
+      case "+":
+      var br2 = prompt("Molim Vas da unesete drugi broj");
+      var rez = parseFloat(br1) + parseFloat(br2);
+      alert("Vaš rezultat je " + rez);
+      break;
+
+      case "-":
+      var br2 = prompt("Molim Vas da unesete drugi broj");
+      var rez = parseFloat(br1) - parseFloat(br2);
+      alert("Vaš rezultat je " + rez);
+      break;
+
+      case "*":
+      var br2 = prompt("Molim Vas da unesete drugi broj");
+      var rez = parseFloat(br1) * parseFloat(br2);
+      alert("Vaš rezultat je " + rez);
+      break;
+
+      case "/":
+      var br2 = prompt("Molim Vas da unesete drugi broj");
+      var rez = parseFloat(br1) / parseFloat(br2);
+      alert("Vaš rezultat je " + rez);
+      break;
+
+      default:
+      alert("Uneli ste znak koji je nemoguće prepoznati. Obustavlja se operacija.");
+
+
+    };
+    
+
+
+  </script>
+
+
+</body>
+</html>
